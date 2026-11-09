@@ -1,0 +1,33 @@
+{
+  "appId": "com.taibah.schoolapp",
+  "productName": "TAIBAH INTERNATIONAL SCHOOL AND COLLEGE",
+  "copyright": "Copyright © 2026 Hazrat Abid - TAIBAH International School and College",
+  "directories": {
+    "output": "dist-electron",
+    "buildResources": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "public/assets/**/*",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      { "target": "nsis", "arch": ["x64"] },
+      { "target": "portable", "arch": ["x64"] }
+    ],
+    "icon": "public/assets/aistudio/App_Icon_0854eeeb.png"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "TAIBAH School Management",
+    "artifactName": "TAIBAH-School-App-Setup.${ext}"
+  },
+  "portable": {
+    "artifactName": "TAIBAH-School-App-Portable.${ext}"
+  }
+}

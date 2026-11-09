@@ -1,0 +1,6 @@
+{
+  "name": "TAIBAH INTERNATIONAL SCHOOL AND COLLEGE",
+  "description": "School Management System for Taibah International School and College with Result Sheet Generation, DMC Generation, Student Card Generator, and Settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
